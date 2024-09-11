@@ -394,6 +394,12 @@ button.active{
 }
 .footer{
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    height: 20rem;
+    background-color:#F7F7F7;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.griditem1{
+    grid-column: 1/3;
 }
